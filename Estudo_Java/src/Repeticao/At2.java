@@ -10,6 +10,21 @@ public class At2 {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
+        while (x != 0 && y != 0){
 
+            if (x > 0 && y > 0 ){
+                System.out.println("PRIMEIRO QUADRANTE! ");
+            }else if (x < 0 && y > 0 ){
+                System.out.println("SEGUNDO QUADRANTE! ");
+            }else if (x < 0 && y < 0 ){
+                System.out.println("TERCEIRO QUADRANTE! ");
+            }else if (x > 0 && y < 0 ){
+                System.out.println("QUARTO QUADRANTE! ");
+            }
+
+            x = sc.nextInt();
+            y = sc.nextInt();
+
+        }
     }
 }
