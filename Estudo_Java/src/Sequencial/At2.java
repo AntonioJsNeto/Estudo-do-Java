@@ -1,4 +1,5 @@
-package Sequencial;
+package src.Sequencial;
+
 import java.util.Locale;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Sequencial;
+package src.Sequencial;
 
 import java.util.Scanner;
 
